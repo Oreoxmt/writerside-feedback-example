@@ -24,6 +24,9 @@ jobs:
           artifact: ${{ env.ARTIFACT }}
           docker-version: ${{ env.DOCKER_VERSION }}
 
+      - name: Add function folder to output file
+        run: sudo zip -r "artifacts/${{ env.ARTIFACT }}" functions/
+
       - name: Upload documentation
         uses: actions/upload-artifact@v4
         with:

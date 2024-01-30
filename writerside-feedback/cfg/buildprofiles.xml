@@ -4,6 +4,6 @@
 
     <variables>
         <feedback-widget>true</feedback-widget>
-        <feedback-url>https://www.test.com</feedback-url>
+        <feedback-url>https://writerside-feedback-example.pages.dev/feedback</feedback-url>
     </variables>
 </buildprofiles>
